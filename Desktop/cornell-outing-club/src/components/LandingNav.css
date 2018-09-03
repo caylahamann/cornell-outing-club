@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+* {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 24px;
+}
+
+
+.landingnav--wrapper {
+    display: flex; 
+    flex-direction: row;
+    width: 100%; 
+    background-color: #6B1A1A; 
+    justify-content: space-between;
+}
+
+.left-content {
+    display: flex; 
+    flex-direction: row; 
+}
+
+.landingnav--item:hover {
+    background-color: #441010;
+}
+
+.landingnav--item {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 250px;
+    text-align: center;
+}
+
+.landingnav--item a:active, .landingnav--item a:focus, .landingnav--item a:hover {
+    color: white; 
+    text-decoration: none; 
+}
+
+.landingnav--item a {
+    color: white;
+}
+
+.landingnav--dropdown {
+    display: flex; 
+    flex-direction: column;
+}
+
+.landingnav--dropdown--items { 
+    width: 250px;
+    margin-top: 66px;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.landingnav--dropdown:hover .landingnav--dropdown--items {
+    display: block;
+}
+
+.landingnav--dropdown--item {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 100%;
+}
+
+.landingnav--dropdown--item:hover {
+    background-color: #F0F0F0;
+}
+
+.float-right {
+    float: right; 
+    position: relative;
+}

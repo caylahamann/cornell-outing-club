@@ -1,0 +1,78 @@
+.card--wrapper {
+    display: flex; 
+    flex-direction: column;
+    width: 312px; 
+    z-index: intial;
+    margin: 30px 30px 30px 30px;
+}
+
+.card--header {
+    background-color: #1F3A00;
+    width: 100%;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.card--header--title {
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+img {
+    width: 312px;
+    position: absolute;
+    z-index: -1;
+}
+
+.card--image--text {
+    width: 312px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 450px;
+    display: none;
+    padding: 10px 10px 10px 10px;
+    z-index: -1;
+    
+}
+
+.card--wrapper:hover .card--image--text {
+    display: block;
+}
+
+.card--wrapper:hover {
+    cursor: pointer;
+}
+
+.card--wrapper {
+    box-shadow:20px 20px 50px grey;
+    height: 468px;
+}
+
+.card--image--text--major {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+}
+
+.card--image--text--interests {
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+}
+
+.bold {
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.card--image--text--funfact {
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+}

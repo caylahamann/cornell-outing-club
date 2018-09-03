@@ -1,0 +1,15 @@
+* {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 24px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.sticky-navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}

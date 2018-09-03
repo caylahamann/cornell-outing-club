@@ -1,0 +1,17 @@
+.calendar--header {
+    background-color: #1F3A00;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+}
+
+.calendar--header--date, .calendar--header--difficulty, .calendar--header--description {
+    color: white; 
+    text-align: center;
+}
+
+.calendar--header--description {
+    text-align: right;
+}

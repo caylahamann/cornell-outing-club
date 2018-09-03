@@ -1,0 +1,80 @@
+.calendarevent--wrapper {
+    padding-top: 15px;
+    padding-left: 70px;
+    padding-right: 70px;
+    display: flex; 
+    flex-direction: column;
+}
+
+.calendarevent--header {
+    display: flex; 
+    flex-direction: row;
+}
+
+.calendarevent--date {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #D8D8D8;
+    text-align: center; 
+    border-radius: 25px;
+    font-size: 18px;
+}
+
+.calendarevent--difficulty {
+    text-align: center; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white; 
+    font-size: 18px;
+    margin-left: 10px; 
+    margin-right: 10px;
+    border-radius: 25px;
+}
+
+.calendarevent--moderate {
+    background-color: #D6C600;
+}
+
+.calendarevent--easy {
+    background-color: #4A8A00;
+}
+
+.calendarevent--difficult {
+    background-color: #E12B00;
+}
+
+.calendarevent--default {
+    background-color: #2B2B2B;
+}
+
+.calendarevent--description {
+    text-align: right; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    width: 70%;
+    padding-right: 20px;
+    cursor: pointer; 
+}
+
+.calendarevent--info {
+    background-color: #F4F4F4;
+    margin-top: 15px;
+    color: black; 
+    font-size: 14px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 15px;
+}
+
+.calendarevent--description:hover {
+    color: grey;
+}
+
+.text-default {
+    font-size: 14px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text-default strong {
+    font-size: 14px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

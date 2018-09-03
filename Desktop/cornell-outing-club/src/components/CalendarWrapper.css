@@ -1,0 +1,31 @@
+.calendarwrapper--header span {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.calendarwrapper--header {
+    text-align: center; 
+    cursor: pointer;
+    padding-bottom: 30px; 
+
+}
+
+.calendar-bold {
+    background-color: #F4F4F4;
+    
+}
+
+
+
+.fullcalendar--width--wrapper {
+    padding-left: 70px; 
+    padding-right: 70px;
+}
+
+.calendar--text {
+    padding: 10px 10px 10px 10px;
+    font-weight: bold;
+}
+
+.calendar--text:hover {
+    color: blue;
+}

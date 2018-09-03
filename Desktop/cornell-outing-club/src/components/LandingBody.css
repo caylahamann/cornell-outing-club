@@ -1,0 +1,51 @@
+
+.facebook-icon:hover {
+    cursor: pointer;
+    fill: grey;
+}
+
+.email-icon:hover {
+    cursor: pointer; 
+    fill: grey;
+}
+
+.landingbody {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.landingbody--connect {
+    border-left: 3px solid black; 
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column; 
+    width: 100%; 
+}
+
+svg {
+    padding-right: 20px;
+}
+
+.landingbody--connect--icons {
+    display: flex; 
+    align-items: baseline;
+    padding-left: 0px;
+}
+
+.instagram-icon:hover {
+    cursor: pointer; 
+    fill: grey;
+}
+
+.icon-wrapper {
+    padding-right: 10px;
+}
+
+.landingbody--connect--text {
+    padding-bottom: 10px;
+}
+
+.landingbody {
+    padding-left: 60px; 
+    padding-right: 60px;
+}
